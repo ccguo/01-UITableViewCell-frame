@@ -14,6 +14,9 @@
 		3757C5661BA31C240092CF97 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3757C5651BA31C240092CF97 /* Images.xcassets */; };
 		3757C5691BA31C240092CF97 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3757C5671BA31C240092CF97 /* LaunchScreen.xib */; };
 		3757C5751BA31C240092CF97 /* _1_UITableViewCell______frameTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3757C5741BA31C240092CF97 /* _1_UITableViewCell______frameTests.m */; };
+		3757C5801BA321A50092CF97 /* HomeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3757C57F1BA321A50092CF97 /* HomeCell.m */; };
+		37D5FD161BAFFDFC00137EDC /* document.json in Resources */ = {isa = PBXBuildFile; fileRef = 37D5FD151BAFFDFC00137EDC /* document.json */; settings = {ASSET_TAGS = (); }; };
+		37D5FD191BAFFE2400137EDC /* HomeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 37D5FD181BAFFE2400137EDC /* HomeModel.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +43,11 @@
 		3757C56E1BA31C240092CF97 /* 01-UITableViewCell高度计算传统frameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "01-UITableViewCell高度计算传统frameTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3757C5731BA31C240092CF97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3757C5741BA31C240092CF97 /* _1_UITableViewCell______frameTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_1_UITableViewCell______frameTests.m"; sourceTree = "<group>"; };
+		3757C57E1BA321A50092CF97 /* HomeCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeCell.h; sourceTree = "<group>"; };
+		3757C57F1BA321A50092CF97 /* HomeCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeCell.m; sourceTree = "<group>"; };
+		37D5FD151BAFFDFC00137EDC /* document.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = document.json; sourceTree = "<group>"; };
+		37D5FD171BAFFE2400137EDC /* HomeModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeModel.h; sourceTree = "<group>"; };
+		37D5FD181BAFFE2400137EDC /* HomeModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +89,7 @@
 		3757C5571BA31C240092CF97 /* 01-UITableViewCell高度计算传统frame */ = {
 			isa = PBXGroup;
 			children = (
+				37D5FD151BAFFDFC00137EDC /* document.json */,
 				3757C55C1BA31C240092CF97 /* AppDelegate.h */,
 				3757C55D1BA31C240092CF97 /* AppDelegate.m */,
 				3757C55F1BA31C240092CF97 /* ViewController.h */,
@@ -89,6 +98,10 @@
 				3757C5651BA31C240092CF97 /* Images.xcassets */,
 				3757C5671BA31C240092CF97 /* LaunchScreen.xib */,
 				3757C5581BA31C240092CF97 /* Supporting Files */,
+				3757C57E1BA321A50092CF97 /* HomeCell.h */,
+				3757C57F1BA321A50092CF97 /* HomeCell.m */,
+				37D5FD171BAFFE2400137EDC /* HomeModel.h */,
+				37D5FD181BAFFE2400137EDC /* HomeModel.m */,
 			);
 			path = "01-UITableViewCell高度计算传统frame";
 			sourceTree = "<group>";
@@ -199,6 +212,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				37D5FD161BAFFDFC00137EDC /* document.json in Resources */,
 				3757C5641BA31C240092CF97 /* Main.storyboard in Resources */,
 				3757C5691BA31C240092CF97 /* LaunchScreen.xib in Resources */,
 				3757C5661BA31C240092CF97 /* Images.xcassets in Resources */,
@@ -219,8 +233,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				37D5FD191BAFFE2400137EDC /* HomeModel.m in Sources */,
 				3757C5611BA31C240092CF97 /* ViewController.m in Sources */,
 				3757C55E1BA31C240092CF97 /* AppDelegate.m in Sources */,
+				3757C5801BA321A50092CF97 /* HomeCell.m in Sources */,
 				3757C55B1BA31C240092CF97 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -299,7 +315,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -337,7 +353,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -350,6 +366,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "01-UITableViewCell高度计算传统frame/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -360,6 +377,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "01-UITableViewCell高度计算传统frame/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -418,6 +436,7 @@
 				3757C57A1BA31C240092CF97 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3757C57B1BA31C240092CF97 /* Build configuration list for PBXNativeTarget "01-UITableViewCell高度计算传统frameTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +445,7 @@
 				3757C57D1BA31C240092CF97 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

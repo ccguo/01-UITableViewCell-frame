@@ -12,6 +12,7 @@
 @property (weak, nonatomic) IBOutlet UILabel *content;
 
 - (void)fillData:(id)obj;
+
 + (CGFloat)calulateHeightWithtTitle:(NSString*)title;
 
 @end

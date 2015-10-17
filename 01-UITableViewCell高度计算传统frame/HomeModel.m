@@ -22,4 +22,11 @@
     return dataArray;
 }
 
++ (id)copyWithZone:(struct _NSZone *)zone
+{
+    HomeModel *model = [[self alloc] copyWithZone:zone];
+    return model;
+}
+
+
 @end

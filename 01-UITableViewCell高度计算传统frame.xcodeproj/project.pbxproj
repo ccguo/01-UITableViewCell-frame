@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		374FBCBE1BB11DD8008CB0B9 /* UITableView-RunLoopObserve.m in Sources */ = {isa = PBXBuildFile; fileRef = 374FBCBD1BB11DD8008CB0B9 /* UITableView-RunLoopObserve.m */; settings = {ASSET_TAGS = (); }; };
 		3757C55B1BA31C240092CF97 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3757C55A1BA31C240092CF97 /* main.m */; };
 		3757C55E1BA31C240092CF97 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3757C55D1BA31C240092CF97 /* AppDelegate.m */; };
 		3757C5611BA31C240092CF97 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3757C5601BA31C240092CF97 /* ViewController.m */; };
@@ -30,6 +31,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		374FBCBC1BB11DD8008CB0B9 /* UITableView-RunLoopObserve.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView-RunLoopObserve.h"; sourceTree = "<group>"; };
+		374FBCBD1BB11DD8008CB0B9 /* UITableView-RunLoopObserve.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView-RunLoopObserve.m"; sourceTree = "<group>"; };
 		3757C5551BA31C240092CF97 /* 01-UITableViewCell高度计算传统frame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "01-UITableViewCell高度计算传统frame.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3757C5591BA31C240092CF97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3757C55A1BA31C240092CF97 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -102,6 +105,8 @@
 				3757C57F1BA321A50092CF97 /* HomeCell.m */,
 				37D5FD171BAFFE2400137EDC /* HomeModel.h */,
 				37D5FD181BAFFE2400137EDC /* HomeModel.m */,
+				374FBCBC1BB11DD8008CB0B9 /* UITableView-RunLoopObserve.h */,
+				374FBCBD1BB11DD8008CB0B9 /* UITableView-RunLoopObserve.m */,
 			);
 			path = "01-UITableViewCell高度计算传统frame";
 			sourceTree = "<group>";
@@ -235,6 +240,7 @@
 			files = (
 				37D5FD191BAFFE2400137EDC /* HomeModel.m in Sources */,
 				3757C5611BA31C240092CF97 /* ViewController.m in Sources */,
+				374FBCBE1BB11DD8008CB0B9 /* UITableView-RunLoopObserve.m in Sources */,
 				3757C55E1BA31C240092CF97 /* AppDelegate.m in Sources */,
 				3757C5801BA321A50092CF97 /* HomeCell.m in Sources */,
 				3757C55B1BA31C240092CF97 /* main.m in Sources */,

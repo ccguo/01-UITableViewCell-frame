@@ -50,12 +50,33 @@
                     </view>
                     <navigationItem key="navigationItem" id="kkh-e2-xqV"/>
                     <connections>
-                        <outlet property="tableView" destination="ZcY-SX-NBD" id="Qkl-er-fOD"/>
+                        <outlet property="tableView" destination="ZcY-SX-NBD" id="MEu-XF-obQ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="680" y="291.99999999999994"/>
+            <point key="canvasLocation" x="490" y="241"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="OTk-C0-r5J">
+            <objects>
+                <viewController id="As3-ye-Hxs" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="WN7-yc-1n9">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="R1z-pW-af6">
+                                <rect key="frame" x="33" y="220" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="me7-Wf-T50" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="942" y="264"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="alE-w7-EL5">
@@ -73,7 +94,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mmp-Jt-n4x" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="148" y="291.99999999999994"/>
+            <point key="canvasLocation" x="54" y="264"/>
         </scene>
     </scenes>
 </document>

@@ -9,6 +9,7 @@
 #import "ViewController.h"
 #import "HomeCell.h"
 #import "HomeModel.h"
+#import "UITableView-RunLoopObserve.h"
 
 static NSInteger numberOfSectionsInTableViewCount = 0;
 static NSInteger numberOfRowsInSectionCount = 0;
@@ -34,17 +35,23 @@ static NSInteger estimatedHeightForRowAtIndexPathCount = 0;
     CGFloat width = [UIScreen mainScreen].bounds.size.width;
 
     self.tableView.frame = CGRectMake(0, 0, width, height);
+    [self.tableView fd_precacheIfNeeded];
    
     
     self.dataArray = [HomeModel dataArray];
 
-    UIButton *rightButton = [UIButton buttonWithType:UIButtonTypeCustom];
-    [rightButton setTitle:@"Log" forState:UIControlStateNormal];
-    [rightButton setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
-    [rightButton addTarget:self action:@selector(log) forControlEvents:UIControlEventTouchUpInside];
-    [rightButton setFrame:CGRectMake(0, 0, 40, 30)];
-    UIBarButtonItem *rightBarItem = [[UIBarButtonItem alloc] initWithCustomView:rightButton];
-    self.navigationItem.rightBarButtonItem = rightBarItem;
+//    UIButton *rightButton = [UIButton buttonWithType:UIButtonTypeCustom];
+//    [rightButton setTitle:@"Log" forState:UIControlStateNormal];
+//    [rightButton setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
+//    [rightButton addTarget:self action:@selector(log) forControlEvents:UIControlEventTouchUpInside];
+//    [rightButton setFrame:CGRectMake(0, 0, 40, 30)];
+//    
+//    
+//    
+//    [self.view addSubview:rightButton];
+//
+//    UIBarButtonItem *rightBarItem = [[UIBarButtonItem alloc] initWithCustomView:rightButton];
+//    self.navigationItem.rightBarButtonItem = rightBarItem;
 }
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
